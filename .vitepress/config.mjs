@@ -1,16 +1,22 @@
 import { defineConfig } from 'vitepress'
+import mathjax3 from 'markdown-it-mathjax3'
 
 export default defineConfig({
   title: "Mate Agronomía",
   description: "Plataforma educativa de matemáticas aplicadas a la agronomía",
+  
+  // NUEVO: Configuración para renderizar LaTeX
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3)
+    }
+  },
+
   themeConfig: {
-    // Navbar superior
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Módulos', link: '/materias/modulo-funciones/1-fundamentos' }
     ],
-
-    // Sidebar lateral (Nuestro índice)
     sidebar: [
       {
         text: 'Funciones Reales y Aplicaciones',
@@ -25,7 +31,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/RJaqE' }
     ]
