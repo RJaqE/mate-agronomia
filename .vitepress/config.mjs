@@ -4,6 +4,8 @@ import mathjax3 from 'markdown-it-mathjax3'
 export default defineConfig({
   title: "Mate Agronomía",
   description: "Plataforma educativa de matemáticas aplicadas a la agronomía",
+
+  base: '/mate-agronomia/',
   
   // NUEVO: Configuración para renderizar LaTeX
   markdown: {
