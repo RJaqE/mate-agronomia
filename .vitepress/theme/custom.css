@@ -1,0 +1,16 @@
+/* custom.css */
+:root {
+  --vp-c-brand-1: #4caf50; /* Verde principal */
+  --vp-c-brand-2: #388e3c; /* Verde oscuro (hover) */
+  --vp-c-brand-3: #81c784; /* Verde claro */
+  
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+}
+
+.dark {
+  --vp-c-brand-1: #81c784;
+  --vp-c-brand-2: #a5d6a7;
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-text: #1a1a1a;
+}
