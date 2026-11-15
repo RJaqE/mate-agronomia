@@ -42,11 +42,11 @@ Si dibujas una línea vertical imaginaria en cualquier punto del dominio y esta 
 
 <GraficoFuncion 
   titulo="Ejemplo de relación que NO es función: y² = x (Parábola horizontal)"
-  expresion="Math.sqrt(x)"
+  :expresion="['Math.sqrt(x)', '-Math.sqrt(x)']"
   :x-min="-1" :x-max="6" :y-min="-3" :y-max="3"
   :puntos="[
     { x: 4, y: 2, label: '(4, 2)' },
-    { x: 4, y: -2, label: 'Nota: también pasa por (4, -2)' }
+    { x: 4, y: -2, label: '(4, -2)' }
   ]"
 />
 
