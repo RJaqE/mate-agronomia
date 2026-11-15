@@ -5,21 +5,20 @@ layout: home
 hero:
   name: "Mate Agronomía"
   text: "Plataforma educativa de matemáticas aplicadas"
-  tagline: My great project tagline
+  tagline: Estudia funciones reales, álgebra y modelación matemática con enfoque agronómico.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Comenzar a estudiar
+      link: /materias/modulo-funciones/1-fundamentos
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Ver repositorio
+      link: https://github.com/RJaqE/mate-agronomia
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Fórmulas Nativas
+    details: Renderizado profesional de ecuaciones matemáticas complejas utilizando sintaxis de LaTeX.
+  - title: Ejercicios Resueltos
+    details: Desarrollo paso a paso en formato desplegable para fomentar el autoaprendizaje.
+  - title: Quizzes Interactivos
+    details: Pon a prueba tus conocimientos al instante con validación y retroalimentación en tiempo real.
 ---
-
