@@ -30,10 +30,18 @@ export default defineConfig({
         ]
       },
       {
+        text: '2. Tipos de Funciones',
+        collapsed: false,
+        items: [
+          { text: '2.1 Función Constante y Lineal', link: '/materias/modulo-funciones/2-1-funcion-constante-lineal' },
+          { text: '2.2 Función Cuadrática', link: '/materias/modulo-funciones/2-2-funcion-cuadratica' },
+          { text: '2.3 Otras Funciones y Test', link: '/materias/modulo-funciones/2-3-otras-funciones' }
+        ]
+      },
+      {
         text: 'Módulos Siguientes',
         collapsed: false,
         items: [
-          { text: '2. Tipos de Funciones', link: '/materias/modulo-funciones/2-tipos-funciones' },
           { text: '3. Álgebra y Composición', link: '/materias/modulo-funciones/3-algebra-composicion' },
           { text: '4. Clasificación de Funciones', link: '/materias/modulo-funciones/4-clasificacion' },
           { text: '5. Funciones Trascendentes', link: '/materias/modulo-funciones/5-exponencial-logaritmica' },
