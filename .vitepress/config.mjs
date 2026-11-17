@@ -17,14 +17,22 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Inicio', link: '/' },
-      { text: 'Módulos', link: '/materias/modulo-funciones/1-fundamentos' }
+      { text: 'Módulos', link: '/materias/modulo-funciones/1-1-producto-cartesiano-relacion' }
     ],
     sidebar: [
       {
-        text: 'Funciones Reales y Aplicaciones',
+        text: '1. Fundamentos de Funciones',
         collapsed: false,
         items: [
-          { text: '1. Fundamentos de Funciones', link: '/materias/modulo-funciones/1-fundamentos' },
+          { text: '1.1 Producto Cartesiano y Relación', link: '/materias/modulo-funciones/1-1-producto-cartesiano-relacion' },
+          { text: '1.2 Definición de Función', link: '/materias/modulo-funciones/1-2-definicion-funcion' },
+          { text: '1.3 Dominio, Recorrido e Imagen', link: '/materias/modulo-funciones/1-3-dominio-recorrido-imagen' }
+        ]
+      },
+      {
+        text: 'Módulos Siguientes',
+        collapsed: false,
+        items: [
           { text: '2. Tipos de Funciones', link: '/materias/modulo-funciones/2-tipos-funciones' },
           { text: '3. Álgebra y Composición', link: '/materias/modulo-funciones/3-algebra-composicion' },
           { text: '4. Clasificación de Funciones', link: '/materias/modulo-funciones/4-clasificacion' },

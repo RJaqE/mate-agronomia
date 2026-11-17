@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Comenzar a estudiar
-      link: /materias/modulo-funciones/1-fundamentos
+      link: /materias/modulo-funciones/1-1-producto-cartesiano-relacion
     - theme: alt
       text: Ver repositorio
       link: https://github.com/RJaqE/mate-agronomia
