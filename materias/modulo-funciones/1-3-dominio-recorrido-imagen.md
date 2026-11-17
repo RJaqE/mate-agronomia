@@ -53,7 +53,7 @@ Mientras que **dominio, codominio y recorrido** hablan de **conjuntos completos*
 | **Imagen** | Elemento individual de salida | Si meto $a$, ¿qué sale? | La imagen de $3$ es $9$ |
 | **Preimagen** | Elemento(s) individual(es) de entrada | Para que salga $b$, ¿qué metí? | Las preimágenes de $9$ son $3$ y $-3$ |
 
-![Analogía de una Función: Dominio, Recorrido e Imagen](/analogia-funcion.jpg)
+![Analogía de una Función: Dominio, Recorrido e Imagen](analogia-funcion.jpg)
 ---
 
 ## 4. Cómo calcular el Dominio Máximo (Restricciones)
