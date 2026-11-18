@@ -105,7 +105,7 @@ $$
 $$ S = \,]-\infty,\,-\tfrac{\sqrt5}{2}\,]\ \cup\ [\,\tfrac{\sqrt5}{2},\,+\infty[ $$
 
 <GraficoFuncion
-  titulo="f(x) = log_{1/2}(x² − 1)  (corte con y = 2 en x = ±√5/2)"
+  titulo="f(x) = log₁/₂(x² − 1)  (corte con y = 2 en x = ±√5/2)"
   expresion="Math.log(x*x - 1)/Math.log(0.5)"
   :dominio="[']-4, -1[', ']1, 4]']"
   :x-min="-4" :x-max="4" :y-min="-4" :y-max="4"
