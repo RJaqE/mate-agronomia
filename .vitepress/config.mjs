@@ -73,6 +73,20 @@ export default defineConfig({
           { text: '6.2 Costos de Empaque', link: '/materias/modulo-funciones/6-2-costos-empaque' },
           { text: '6.3 Composición, Aplicaciones y Test', link: '/materias/modulo-funciones/6-3-aplicaciones-test' }
         ]
+      },
+      {
+        text: '7. Guía Estratégica de Resolución',
+        collapsed: false,
+        items: [
+          { text: '7.1 Tácticas para Exámenes', link: '/materias/modulo-funciones/7-guia-resolucion' }
+        ]
+      },
+      {
+        text: '8. Taller de Ejercicios Resueltos',
+        collapsed: false,
+        items: [
+          { text: '8.1 Super Guía Práctica', link: '/materias/modulo-funciones/8-ejercicios-resueltos' }
+        ]
       }
     ],
     socialLinks: [
