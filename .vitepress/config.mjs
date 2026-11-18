@@ -7,7 +7,7 @@ export default defineConfig({
 
   base: '/mate-agronomia/',
   
-  // NUEVO: Configuración para renderizar LaTeX
+  // Configuración para renderizar LaTeX
   markdown: {
     config: (md) => {
       md.use(mathjax3)
@@ -39,13 +39,39 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Módulos Siguientes',
+        text: '3. Álgebra y Composición',
         collapsed: false,
         items: [
-          { text: '3. Álgebra y Composición', link: '/materias/modulo-funciones/3-algebra-composicion' },
-          { text: '4. Clasificación de Funciones', link: '/materias/modulo-funciones/4-clasificacion' },
-          { text: '5. Funciones Trascendentes', link: '/materias/modulo-funciones/5-exponencial-logaritmica' },
-          { text: '6. Modelación Matemática', link: '/materias/modulo-funciones/6-modelacion-aplicaciones' }
+          { text: '3.1 Operaciones con Funciones', link: '/materias/modulo-funciones/3-1-operaciones' },
+          { text: '3.2 Composición de Funciones', link: '/materias/modulo-funciones/3-2-composicion' },
+          { text: '3.3 Composición por Tramos y Test', link: '/materias/modulo-funciones/3-3-composicion-tramos' }
+        ]
+      },
+      {
+        text: '4. Clasificación de Funciones',
+        collapsed: false,
+        items: [
+          { text: '4.1 Inyectividad y Sobreyectividad', link: '/materias/modulo-funciones/4-1-inyectividad-sobreyectividad' },
+          { text: '4.2 Función Inversa', link: '/materias/modulo-funciones/4-2-funcion-inversa' },
+          { text: '4.3 Monotonía, Paridad y Test', link: '/materias/modulo-funciones/4-3-monotonia-paridad' }
+        ]
+      },
+      {
+        text: '5. Funciones Trascendentes',
+        collapsed: false,
+        items: [
+          { text: '5.1 Función Exponencial', link: '/materias/modulo-funciones/5-1-exponencial' },
+          { text: '5.2 Función Logarítmica', link: '/materias/modulo-funciones/5-2-logaritmica' },
+          { text: '5.3 Ecuaciones, Inecuaciones y Test', link: '/materias/modulo-funciones/5-3-ecuaciones-inecuaciones' }
+        ]
+      },
+      {
+        text: '6. Modelación Matemática',
+        collapsed: false,
+        items: [
+          { text: '6.1 Impuestos y Áreas', link: '/materias/modulo-funciones/6-1-impuestos-areas' },
+          { text: '6.2 Costos de Empaque', link: '/materias/modulo-funciones/6-2-costos-empaque' },
+          { text: '6.3 Composición, Aplicaciones y Test', link: '/materias/modulo-funciones/6-3-aplicaciones-test' }
         ]
       }
     ],
