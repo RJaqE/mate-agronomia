@@ -209,13 +209,16 @@ $$
 
 <details>
 <summary><strong>Ejemplo 4.1 · f(x)=x³ es inyectiva e impar</strong></summary>
+
 * **Inyectividad:** Si $a^3=b^3$, entonces $a^3-b^3=(a-b)(a^2+ab+b^2)=0$. Como el segundo factor es $\geq 0$ y solo vale $0$ si $a=b=0$, obtenemos $a=b$. $f$ es inyectiva.
 * **Sobreyectividad:** Para todo $y\in\mathbb{R}$, existe $x=\sqrt[3]{y}$. $R_f=\mathbb{R}$.
 * **Paridad:** $f(-x)=(-x)^3=-x^3=-f(x)$. Es impar.
+
 </details>
 
 <details>
 <summary><strong>Ejemplo 4.2 · f(x)=[x] (función parte entera)</strong></summary>
+
 La parte entera de $x$ es el mayor entero menor o igual que $x$.
 * **Inyectividad:** $f(0)=f(0{,}5)=0$. Dos entradas distintas dan la misma salida, así que **no es inyectiva**.
 * **Recorrido:** Solo toma valores enteros: $R_f=\mathbb{Z}$.
@@ -230,6 +233,7 @@ La parte entera de $x$ es el mayor entero menor o igual que $x$.
     { x: 0.5, y: 0, label: '[0,5]=0' }
   ]"
 />
+
 </details>
 
 ---
