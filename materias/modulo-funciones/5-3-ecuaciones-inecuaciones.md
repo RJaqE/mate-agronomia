@@ -252,7 +252,7 @@ $$ S = \,]0,\tfrac13[\ \cup\ \big[\,3^{-2/3},\ 1\,\big] $$
         'Cambiar todas las bases a base 10.'
       ],
       correcta: 'Determinar el dominio, exigiendo que todos los argumentos de los logaritmos sean estrictamente mayores a cero.',
-      explicacion: 'Si no determinas las restricciones iniciales, podrías obtener soluciones matemáticas ("soluciones falsas") que al reemplazarlas generen el logaritmo de un número negativo, lo cual no existe en los reales.'
+      explicacion: 'Si no determinas las restricciones iniciales, podrías obtener soluciones matemáticas incongruentes que al reemplazarlas generen el logaritmo de un número negativo, lo cual no existe en los reales.'
     }
   ]"
 />
